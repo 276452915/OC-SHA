@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OC-SHA"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of OC-SHA. 今天把SHA224/SHA256/SHA384/SHA512的实现一并附上。 SHA即Secure Hash Algorithm（安全散列算法)有多种不同位数的实现，常见的有SHA224/SHA256/SHA384/SHA512等"
 
   # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,9 +53,9 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "Bill Wang" => "Bill@example.com" }
-  # Or just: s.author    = "Bill Wang"
-  # s.authors            = { "Bill Wang" => "Bill@example.com" }
-  # s.social_media_url   = "http://twitter.com/Bill Wang"
+  Or just: s.author    = "Bill Wang"
+  s.authors            = { "Bill Wang" => "276452915@qq.com" }
+   s.social_media_url   = "Wechat ID: java007"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "OC-SHA/SHA/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

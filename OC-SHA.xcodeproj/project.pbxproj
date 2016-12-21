@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A98349101E0AC05300A3CE45 /* NSString+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = A983490F1E0AC05300A3CE45 /* NSString+SHA.m */; };
 		A9DEE7341E00D710001E3391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DEE7331E00D710001E3391 /* main.m */; };
 		A9DEE7371E00D710001E3391 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DEE7361E00D710001E3391 /* AppDelegate.m */; };
 		A9DEE73A1E00D710001E3391 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DEE7391E00D710001E3391 /* ViewController.m */; };
 		A9DEE73D1E00D710001E3391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DEE73B1E00D710001E3391 /* Main.storyboard */; };
 		A9DEE73F1E00D710001E3391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DEE73E1E00D710001E3391 /* Assets.xcassets */; };
 		A9DEE7421E00D710001E3391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DEE7401E00D710001E3391 /* LaunchScreen.storyboard */; };
-		A9DEE74B1E00D928001E3391 /* NSString+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DEE74A1E00D928001E3391 /* NSString+SHA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A983490E1E0AC05300A3CE45 /* NSString+SHA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA.h"; sourceTree = "<group>"; };
+		A983490F1E0AC05300A3CE45 /* NSString+SHA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA.m"; sourceTree = "<group>"; };
 		A9DEE72F1E00D710001E3391 /* OC-SHA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC-SHA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DEE7331E00D710001E3391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9DEE7351E00D710001E3391 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		A9DEE73E1E00D710001E3391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9DEE7411E00D710001E3391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9DEE7431E00D710001E3391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9DEE7491E00D928001E3391 /* NSString+SHA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA.h"; sourceTree = "<group>"; };
-		A9DEE74A1E00D928001E3391 /* NSString+SHA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A983490D1E0AC05300A3CE45 /* SHA */ = {
+			isa = PBXGroup;
+			children = (
+				A983490E1E0AC05300A3CE45 /* NSString+SHA.h */,
+				A983490F1E0AC05300A3CE45 /* NSString+SHA.m */,
+			);
+			path = SHA;
+			sourceTree = "<group>";
+		};
 		A9DEE7261E00D710001E3391 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +70,11 @@
 		A9DEE7311E00D710001E3391 /* OC-SHA */ = {
 			isa = PBXGroup;
 			children = (
+				A983490D1E0AC05300A3CE45 /* SHA */,
 				A9DEE7351E00D710001E3391 /* AppDelegate.h */,
 				A9DEE7361E00D710001E3391 /* AppDelegate.m */,
 				A9DEE7381E00D710001E3391 /* ViewController.h */,
 				A9DEE7391E00D710001E3391 /* ViewController.m */,
-				A9DEE7491E00D928001E3391 /* NSString+SHA.h */,
-				A9DEE74A1E00D928001E3391 /* NSString+SHA.m */,
 				A9DEE73B1E00D710001E3391 /* Main.storyboard */,
 				A9DEE73E1E00D710001E3391 /* Assets.xcassets */,
 				A9DEE7401E00D710001E3391 /* LaunchScreen.storyboard */,
@@ -156,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9DEE74B1E00D928001E3391 /* NSString+SHA.m in Sources */,
+				A98349101E0AC05300A3CE45 /* NSString+SHA.m in Sources */,
 				A9DEE73A1E00D710001E3391 /* ViewController.m in Sources */,
 				A9DEE7371E00D710001E3391 /* AppDelegate.m in Sources */,
 				A9DEE7341E00D710001E3391 /* main.m in Sources */,
@@ -316,6 +324,7 @@
 				A9DEE7481E00D710001E3391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
